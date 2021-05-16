@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:stretchColumns="0"
+    >
+
+    <TableRow>
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_gravity="center_vertical"
+            android:text="NO.1"
+            android:textSize="15dp"/>
+
+        <RatingBar
+            android:id="@+id/rb1"
+            style = "?android:attr/ratingBarStyleIndicator"
+            android:layout_gravity="right"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_gravity="center_vertical"
+            android:text="NO.2"
+            android:textSize="15dp"/>
+
+        <RatingBar
+            android:id="@+id/rb2"
+            style = "?android:attr/ratingBarStyleIndicator"
+            android:layout_gravity="right"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_gravity="center_vertical"
+            android:text="NO.3"
+            android:textSize="15dp"/>
+
+        <RatingBar
+            android:id="@+id/rb3"
+            style = "?android:attr/ratingBarStyleIndicator"
+            android:layout_gravity="right"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_gravity="center_vertical"
+            android:text="NO.4"
+            android:textSize="15dp"/>
+
+        <RatingBar
+            android:id="@+id/rb4"
+            style = "?android:attr/ratingBarStyleIndicator"
+            android:layout_gravity="right"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_gravity="center_vertical"
+            android:text="NO.5"
+            android:textSize="15dp"/>
+
+        <RatingBar
+            android:id="@+id/rb5"
+            style = "?android:attr/ratingBarStyleIndicator"
+            android:layout_gravity="right"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_gravity="center_vertical"
+            android:text="NO.6"
+            android:textSize="15dp"/>
+
+        <RatingBar
+            android:id="@+id/rb6"
+            style = "?android:attr/ratingBarStyleIndicator"
+            android:layout_gravity="right"/>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/btnReturn"
+            android:layout_span="2"
+            android:text="돌아가기"/>
+    </TableRow>
+
+</TableLayout>

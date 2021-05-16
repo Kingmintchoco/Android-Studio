@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="10dp"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:src="@drawable/cat1"
+            />
+
+        <ImageView
+            android:id="@+id/iv2"
+            android:layout_width="10dp"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:src="@drawable/cat2"
+            />
+
+        <ImageView
+            android:id="@+id/iv3"
+            android:layout_width="10dp"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:src="@drawable/cat3"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+        <ImageView
+            android:id="@+id/iv4"
+            android:layout_width="10dp"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:src="@drawable/cat4"
+            />
+
+        <ImageView
+            android:id="@+id/iv5"
+            android:layout_width="10dp"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:src="@drawable/cat5"
+            />
+
+        <ImageView
+            android:id="@+id/iv6"
+            android:layout_width="10dp"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:src="@drawable/cat6"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnResult"
+        android:layout_weight="0.1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="결과보기"
+        />
+    
+</LinearLayout>
