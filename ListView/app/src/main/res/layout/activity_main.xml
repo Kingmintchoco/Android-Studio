@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/gotoSimple"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="SIMPLE"
+        android:onClick="simpleClick"/>
+
+    <Button
+        android:id="@+id/gotoAddDelete"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Add Delete"
+        android:onClick="addClick"/>
+
+    <Button
+        android:id="@+id/gotoCustom"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Custom"
+        android:onClick="customClick"/>
+
+
+</LinearLayout>

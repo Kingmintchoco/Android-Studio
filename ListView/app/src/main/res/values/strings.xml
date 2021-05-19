@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ListView</string>
+
+    <string-array name = "song_names">
+        <item>마.피.아 In the morning</item>
+        <item>열대야</item>
+        <item>붐바야</item>
+    </string-array>
+
+</resources>

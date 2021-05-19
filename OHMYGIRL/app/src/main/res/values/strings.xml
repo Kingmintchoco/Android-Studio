@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">OHMYGIRL</string>
+    <string-array name="member">
+        <item>유아</item>
+        <item>아린</item>
+        <item>미미</item>
+        <item>지효</item>
+        <item>승희</item>
+        <item>효정</item>
+        <item>비니</item>
+    </string-array>
+</resources>
